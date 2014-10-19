@@ -13,7 +13,7 @@ def plus_one(n):
 
     """
     if n < 0:
-        raise Exception("BREAK!!!!")
+        raise Exception("Can't have negative numbers!!!!")
     return n+1
 
 
@@ -21,9 +21,6 @@ def return_true():
     """
     >> return_true()
     True
-
-
-
 
     """
 
