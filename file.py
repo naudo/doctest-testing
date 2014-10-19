@@ -9,11 +9,11 @@ def plus_one(n):
     >>> plus_one(-12)
     Traceback (most recent call last):
     ...
-    Exception: BREAK!!!!
+    Exception: Can't have negative numbers!
 
     """
     if n < 0:
-        raise Exception("Can't have negative numbers!!!!")
+        raise Exception("Can't have negative numbers!")
     return n+1
 
 
