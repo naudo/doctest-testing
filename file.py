@@ -22,10 +22,6 @@ def return_true():
     >> return_true()
     True
 
-    This is a broken test to see if codeship will report a failing doctest
-
-    >>> return_true()
-    False
 
 
 
